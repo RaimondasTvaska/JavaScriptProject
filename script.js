@@ -16,7 +16,7 @@ for (let i =0; i < numberArray.length; i++){
     sum = sum + element;
 }
 
-console.log(sum)
+// console.log(sum) //
 
 
 // let numberString = prompt("Please, enter a number");
@@ -52,3 +52,11 @@ console.log(sum)
 //         document.write("lol");
 //         break;
 // }
+
+
+function multiply(p1,p2){
+    let multivalue = p1 * p2;
+    multiply(2, 5)
+    console.log (multiply(3,3));
+    return multivalue; // the functions returns the product of p1 and p2
+}
